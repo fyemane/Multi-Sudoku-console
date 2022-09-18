@@ -1,7 +1,7 @@
 # Multi-Sudoku-console
 WORK IN PROGRESS
 
-A Windows console C program run on Visual Studio that can solve Sudoku puzzles in multiple versions. The program will take an inputted (or empty) 9x9 grid and output the completed grid, along with the number of backtracking iterations to complete the Sudoku grid. The program can solve Sudoku puzzles in the following variants. 
+A Windows console C program run on Visual Studio that can solve Sudoku puzzles in multiple versions. The program will take an inputted (or empty) 9x9 grid and output the completed grid, along with the number of backtracking iterations to complete the Sudoku grid. The program can solve Sudoku puzzles in the following variants:
 
 | Variant | Description |
 | - | - |
@@ -14,5 +14,5 @@ A Windows console C program run on Visual Studio that can solve Sudoku puzzles i
 | Non-consecutive | Vertically and horizonatally adjacent cells don't have consecutive numbers. | 
 | Asterisk & Girandola | Select cells are a new region with numbers 1-9. |
 
-You must edit the "chosen_type" variable in the M to change the sudoku variant.
+You can edit the "chosen_type" and "chosen_grid" variables in the main.c file to change the sudoku variant and the grid to be solved.
 
