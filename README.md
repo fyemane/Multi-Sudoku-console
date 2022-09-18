@@ -14,5 +14,5 @@ A Windows console C program run on Visual Studio that can solve Sudoku puzzles i
 | Non-consecutive | Vertically and horizonatally adjacent cells don't have consecutive numbers. | 
 | Asterisk & Girandola | Select cells are a new region with numbers 1-9. |
 
-You must edit the "chosen_type" variable in the program to change the sudoku variant.
+You must edit the "chosen_type" variable in the M to change the sudoku variant.
 
