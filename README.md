@@ -1,5 +1,8 @@
 # Multi-Sudoku Console
 
+[Project portfolio](https://fyemane.github.io/projects.html) · [About me, experience & qualifications](https://fyemane.github.io/)
+
+
 My Windows console Sudoku solver written in C with a Visual Studio project. I built it to explore recursive backtracking and how a common solving algorithm can be extended with different Sudoku constraints.
 
 The program works with a 9 × 9 integer grid, uses `0` for empty cells, and prints the starting grid followed by the first solution it finds. Console colours highlight cells associated with the selected variant.
